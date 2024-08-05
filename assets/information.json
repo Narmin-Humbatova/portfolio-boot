@@ -1,0 +1,52 @@
+[
+    {
+        "card_img":"assets/images/cards/card1.svg",
+        "card_name":"What I can do for you",
+        "card_main":"Faster, better products that your <br /> users love. Here's all the services I <br /> provide:",
+        "card_group1":"Design Strategy",
+        "card_group2":"Web and Mobile App Design",
+        "card_group3":"Front-end Development"
+
+    },
+
+    {
+        "card_img":"assets/images/cards/card2.svg",
+        "card_name":"Applications I'm fluent in",
+        "card_main":"Every designer needs the right <br /> tools to do the perfect job. <br /> Thankfully, I'm multilingual.",
+        "card_group1":"Sketch",
+        "card_group2":"Webflow",
+        "card_group3":"Figma"
+
+    },
+
+    {
+        "card_img":"assets/images/cards/card3.svg",
+        "card_name":"What you can expect",
+        "card_main":"I design products that are more <br /> than pretty. I make them shippable <br /> and usable.",
+        "card_group1":"Clean and functional",
+        "card_group2":"Device and user friendly",
+        "card_group3":"Efficient and maintainable"
+
+    },
+    
+    {
+        "card_img":"assets/images/cards/card1.svg",
+        "card_name":"What I can do for you",
+        "card_main":"Faster, better products that your <br /> users love. Here's all the services I <br /> provide:",
+        "card_group1":"Design Strategy",
+        "card_group2":"Web and Mobile App Design",
+        "card_group3":"Front-end Development"
+
+    },
+
+    {
+        "card_img":"assets/images/cards/card2.svg",
+        "card_name":"Applications I'm fluent in",
+        "card_main":"Every designer needs the right <br /> tools to do the perfect job. <br /> Thankfully, I'm multilingual.",
+        "card_group1":"Sketch",
+        "card_group2":"Webflow",
+        "card_group3":"Figma"
+
+    }
+
+]

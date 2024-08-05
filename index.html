@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fav-icon -->
+  <link rel="shortcut icon" href="./assets/images/header/fav-icon.svg" type="image/x-icon">
+  <!-- accordion css link -->
+  <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.css">
+  <!-- swiper css link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/global.css">
+  <title>Portfolio Creator</title>
+</head>
+
+<body>
+  <!-- mobile menu start -->
+  <div class="mobile-menu">
+    <i class="fa-solid fa-xmark text-white"></i>
+    <nav class="mobile-links">
+      <a href="">About</a>
+      <a href="">Services</a>
+      <a href="">Projects</a>
+      <a href="">Blog</a>
+      <a href="">Book a call</a>
+    </nav>
+  </div>
+  <!-- mobile menu end -->
+
+
+  <!-- header start -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container mt-4">
+        <a class="navbar-brand" href="#"> <img src="./assets/images/header/portfolio.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-dark" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Book a call <img src="./assets/images/header/ox.svg" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- header end -->
+
+
+  <!-- introduction start -->
+  <section class="introduction">
+    <div class="container">
+      <div class="row">
+        <div class="intro-left-side col-12 col-md-6 col-lg-6 mt-5">
+          <h1 class="roboto-bold"><span>I design products</span> <br /> that delight and <br /> inspire people.</h1>
+          <p>Hi! I’m Jake, a product designer based in Berlin. I create user-friendly interfaces for fast-growing
+            startups.</p>
+          <!-- buttons introduction -->
+          <div class="buttons">
+            <a href="#" class="bg-dark text-white p-3 my-3 d-inline-block text-decoration-none">Book a call</a>
+            <a href="#" class="text-dark text-decoration-none mx-3">Download CV <img src="./assets/images/header/ox.svg"
+                alt="" class="ms-3"></a>
+          </div>
+        </div>
+        <div class="intro-right-side col-12 col-md-6 col-lg-6">
+          <img src="./assets/images/header/profile.svg" alt="" class="w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- introduction end -->
+
+
+  <!-- companies start -->
+  <section class="partners py-5">
+    <div class="container">
+      <h5 class="text-center py-5">Trusted by</h5>
+      <div class="swiper companies py-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./assets/images/company/company1.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company2.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company3.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company4.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company1.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company2.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company3.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company4.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company1.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company2.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company3.svg" alt=""></div>
+          <div class="swiper-slide"><img src="./assets/images/company/company4.svg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!-- companies end -->
+
+
+  <!-- services-card star -->
+  <section class="services container">
+    <h4 class="text-center text-uppercase">Services</h4>
+    <h2 class="text-center my-5">Design that solves problems,<br /> one product at a time.</h2>
+      <div class="swiper cardsSlayder py-5">
+        <div class="swiper-wrapper cardDiv">
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  </section>
+  <!-- services-card end -->
+
+
+  <!-- project start -->
+  <section class="projects py-5">
+    <div class="container">
+      <h3 class="text-uppercase">Projects</h3>
+      <div class="bring d-flex justify-content-between align-items-center">
+        <h2>I bring results. <br/> My clients are proof. </h2>
+        <button class="text-white bg-dark rounded-0 btn py-2 px-3">View all projects</button>
+      </div>
+      <div class="pictures swiper projectSwiper py-4">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./assets/images/projects/project1.svg" class="card-img-top w-100" alt="">
+              <div class="card-body">
+                <h6 class="card-title text-uppercase">Branding</h6>
+                <h4 class="card-text">Soulful Rebrand</h4>
+                <a href="#" class="btn">View Project <img src="./assets/images/header/ox.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./assets/images/projects/project2.svg" class="card-img-top img-fluid" alt="">
+              <div class="card-body">
+                <h6 class="card-title text-uppercase">Product Design</h6>
+                <h4 class="card-text">Datadash Product design</h4>
+                <a href="#" class="btn">View Project <img src="./assets/images/header/ox.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card project-card">
+              <img src="./assets/images/projects/project1.svg" class="card-img-top img-fluid" alt="">
+              <div class="card-body">
+                <h6 class="card-title text-uppercase">Web Design</h6>
+                <h4 class="card-text">Maize Website Design</h4>
+                <a href="#" class="btn">View Project <img src="./assets/images/header/ox.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <img src="./assets/images/projects/project2.svg" class="card-img-top img-fluid" alt="">
+              <div class="card-body">
+                <h6 class="card-title text-uppercase">Branding</h6>
+                <h4 class="card-text">Soulful Rebrand</h4>
+                <a href="#" class="btn">View Project <img src="./assets/images/header/ox.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navigation d-flex justify-content-end gap-2 my-3">
+          <button class="prev-btn"><img src="./assets/images/projects/left.svg" alt=""></button>
+          <button class="next-btn"><img src="./assets/images/projects/right.svg" alt=""></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- project end -->
+
+
+  <!-- black start -->
+  <section class="blogs-section bg-dark">
+    <div class="container text-white p-5">
+      <div class="row">
+        <div class="blogs-left-side col-12 col-md-6 col-lg-5">
+          <h5 class="text-uppercase">Blogs</h5>
+          <h4 class="text-capitalize">Latest blogs</h4>
+          <a href="" class="nav-link">View all <img src="./assets/images/blogs/white arrow.svg" alt="" class="ms-3"></a>
+        </div>
+        <div class="blogs-right-side col-12 col-md-6 col-lg-7 blogGetir">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- black end -->
+
+
+  <!-- product start -->
+  <section class="product-design container py-5">
+    <div class="product">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-5">
+          <div class="product-left">
+            <h4 class="text-uppercase">Product Designer</h4>
+            <h2>That's me</h2>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-7">
+          <div class="product-right">
+            <p class="mt-3">Over the past 12 years, I've worked with a diverse range of clients, from startups to
+              Fortune 500 companies. I love crafting interfaces that delight users and help businesses grow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery py-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <img src="./assets/images/product/foto1.svg" alt="" class="w-100">
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <img src="./assets/images/product/foto2.svg" alt="" class="w-100">
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <img src="./assets/images/product/foto3.svg" alt="" class="w-100 foto-right foto-3">
+          <img src="./assets/images/product/foto4.svg" alt="" class="w-100 foto-right">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- product end -->
+
+
+  <!-- groups start -->
+  <section class="groups container">
+    <div class="education-work">
+      <div class="row">
+        <!-- left -->
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="education-group">
+            <h3 class="my-5">📚 Education</h3>
+            <div class="education d-flex justify-content-between py-3">
+              <div class="education-left">
+                <h6>Stanford University</h6>
+                <p>MSc (Human Computer Interaction)</p>
+              </div>
+              <div class="education-right justify-content-end">
+                <img src="./assets/images/groups/arrow-right.svg" alt="">
+                <small id="time">• 2013-2015</small>
+              </div>
+            </div>
+            <div class="education d-flex justify-content-between py-3">
+              <div class="education-left">
+                <h6>MIT Summer School</h6>
+                <p>UX Training Bootcamp</p>
+              </div>
+              <div class="education-right justify-content-end">
+                <img src="./assets/images/groups/arrow-right.svg" alt="">
+                <small id="time">• 2013-2014</small>
+              </div>
+            </div>
+            <div class="education d-flex justify-content-between py-3">
+              <div class="education-left">
+                <h6>California State University</h6>
+                <p>BSc in Software Engineering</p>
+              </div>
+              <div class="education-right justify-content-end">
+                <img src="./assets/images/groups/arrow-right.svg" alt="">
+                <small id="time">• 2009-2012</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="work-group">
+            <h3 class="my-5">💼 Work Experience</h3>
+            <div class="work d-flex justify-content-between py-3">
+              <div class="work-left d-flex">
+                <div class="icon">
+                  <img src="./assets/images/groups/icon1.svg" alt="" class="me-2">
+                </div>
+                <div class="space">
+                  <h6>SpaceFleet</h6>
+                  <p>Senior Product Designer</p>
+                </div>
+              </div>
+              <div class="work-right">
+                <img src="./assets/images/groups/arrow-right.svg" alt="">
+                <small>• April 2019 - Current</small>
+              </div>
+            </div>
+            <div class="work d-flex justify-content-between py-3">
+              <div class="work-left d-flex">
+                <div class="icon">
+                  <img src="./assets/images/groups/icon2.svg" alt="" class="me-2">
+                </div>
+                <div class="space">
+                  <h6>MusicMash</h6>
+                  <p>Information Architect</p>
+                </div>
+              </div>
+              <div class="work-right">
+                <img src="./assets/images/groups/arrow-right.svg" alt="">
+                <small>• April 2016 - May 2017</small>
+              </div>
+            </div>
+            <div class="work d-flex justify-content-between py-3">
+              <div class="work-left d-flex">
+                <div class="icon">
+                  <img src="./assets/images/groups/icon3.svg" alt="" class="me-2">
+                </div>
+                <div class="space">
+                  <h6>Kingdom</h6>
+                  <p>UI Designer</p>
+                </div>
+              </div>
+              <div class="work-right">
+                <img src="./assets/images/groups/arrow-right.svg" alt="">
+                <small>• April 2016 - May 2017</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- groups end -->
+
+
+<!-- faq-accordion start -->
+  <section class="faq py-5">
+    <div class="container">
+      <h4 class="text-center">FAQ</h4>
+      <h2 class="text-center text-white py-3">Frequently asked questions</h2>
+      <div class="row py-4">
+        <div class="accordion-left col-12 col-md-6 col-lg-6">
+          <div class="ac">
+            <h2 class="ac-header">
+              <button type="button" class="ac-trigger">What type of projects do you take on?</button>
+            </h2>
+            <div class="ac-panel">
+              <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        
+          <div class="ac">
+            <h2 class="ac-header">
+              <button type="button" class="ac-trigger">What is your hourly rate?</button>
+            </h2>
+            <div class="ac-panel">
+              <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        
+          <div class="ac">
+            <h2 class="ac-header">
+              <button type="button" class="ac-trigger">What time-zone do you work in?</button>
+            </h2>
+            <div class="ac-panel">
+              <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+
+          <div class="ac">
+            <h2 class="ac-header">
+              <button type="button" class="ac-trigger">What is the typical timeline for a project?</button>
+            </h2>
+            <div class="ac-panel">
+              <p class="ac-text">What is the typical timeline for a project?</p>
+            </div>
+          </div>
+        </div>      
+
+        <div class="accordion-right col-12 col-md-6 col-lg-6">
+          <div class="ac">
+            <h2 class="ac-header">
+              <button type="button" class="ac-trigger">How do you charge for projects ?</button>
+            </h2>
+            <div class="ac-panel">
+              <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        
+          <div class="ac">
+            <h2 class="ac-header">
+              <button type="button" class="ac-trigger">What does your design process look like?</button>
+            </h2>
+            <div class="ac-panel">
+              <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        
+          <div class="ac">
+            <h2 class="ac-header">
+              <button type="button" class="ac-trigger">What metrics do you use to measure success?</button>
+            </h2>
+            <div class="ac-panel">
+              <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          
+          <div class="ac">
+            <h2 class="ac-header">
+              <button type="button" class="ac-trigger">What if I need help after the project is complete?</button>
+            </h2>
+            <div class="ac-panel">
+              <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>     
+      </div> 
+    </div>   
+  </section>
+<!-- faq-accardion end -->
+
+
+<!-- footer start -->
+  <footer class="footer">
+    <div class="container py-5">
+      <div class="row write">
+        <h2 class="text-white py-5">Ready to make something kickass? <br/> <span>Let's get on a call.</span></h2>
+        <div class="end row">
+          <div class="end-left-side col-12 col-md-12 col-lg-6">
+            <img src="./assets/images/footer/footer-logo.svg" alt="">
+            <p class="py-3">4353 Delaware Avenue, San Francisco, USA</p>
+            <article class="py-3"><img src="./assets/images/footer/mail.svg" alt="" class="me-2">hi@thefolio.com</article>
+          </div>
+          <div class="end-right-side col-12 col-md-4 col-lg-2 text-white py-2">
+            <p><a href="./assets/pages/newhtml.html">About</a></p>
+            <p><a href="./assets/pages/newhtml.html">Contact</a></p>
+            <p><a href="./assets/pages/newhtml.html">Dribbble</a></p>
+          </div>
+          <div class="end-right-side col-12 col-md-4 col-lg-2 text-white py-2">
+            <p><a href="./assets/pages/newhtml.html">Services</a></p>
+            <p><a href="./assets/pages/newhtml.html">Blog</a></p>
+            <p><a href="./assets/pages/newhtml.html">Instagram</a></p>
+          </div>
+          <div class="end-right-side col-12 col-md-4 col-lg-2 text-white py-2">
+            <p><a href="./assets/pages/newhtml.html">Experience</a></p>
+            <p><a href="./assets/pages/newhtml.html">Projects</a></p>
+            <p><a href="./assets/pages/newhtml.html">Twitter</a></p>
+          </div>
+        </div>
+        <p class="pt-5">© All rights reserved. Sumit Hegde. Powered by Webflow /Image License Info /Instructions /Changelog /Style Guide</p>
+      </div>
+    </div>
+  </footer>
+<!-- footer end -->
+
+
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- accordion js -->
+  <script src="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.js"></script>
+  <!-- main js -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

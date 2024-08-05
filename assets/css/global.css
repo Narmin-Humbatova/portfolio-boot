@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+/* Mobile First Approach */
+
+
+/* mobile-menu start */
+.mobile-menu {
+  position: fixed;
+  background-color: #000;
+  right: 0;
+  width: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  z-index: 9999999;
+  transition: .7s ease;
+}
+.mobile-menu.aktiv {
+  width: 180px;
+}
+.fa-xmark {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 25px;
+}
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.mobile-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+} 
+/* mobile-menu end */
+
+
+/* introduction start */
+.introduction .intro-left-side h1 span{
+    color: #FF8A56;
+}
+.introduction .intro-left-side p{
+    color: #666666;
+}
+.introduction .intro-left-side h1 {
+    font-size: 38px;
+}
+/* introduction end */
+
+
+/* services-card start */
+.services .card:hover {
+  box-shadow: 10px 20px 30px rgba(66, 67, 67, 0.67);
+}
+.services h4{
+  color: #FF5E69;
+}
+.services h2{
+  font-size: 35px;
+  font-weight: 700;
+}
+.swiper-pagination-bullet {
+  background-color: #000;
+  width: 15px;
+  height: 15px;
+}
+/* services-card end */
+  
+
+/* projects start */
+.projects h6, .projects h3{
+  color: #B16CEA;
+}
+.projects .bring h2{
+  font-weight: 700;
+  font-size: 40px;
+}
+.projects .pictures .btn {
+  padding: 0;
+}
+.next-btn, .prev-btn {
+width: 53px;
+height: 53px;
+}
+/* projects end */
+
+
+/* blogs start */
+.blogs-section .blogs-left-side {
+  padding-left: 30px;
+}
+.blogs-section .blogs-left-side h5{
+  color: #FFA84B;
+}
+.blogs-section .blogs-right-side img {
+  margin-left: 7px;
+}
+.blogs-section .blogs-right-side .website {
+  color: #ccc;
+}
+.blogs-section .blog {
+  border-bottom: 1px solid rgb(57, 57, 57);
+  padding: 20px 0;
+  margin: 20px;
+}
+.blogs-section .blog small{
+  color: rgb(178, 178, 178);
+  font-weight: 100;
+  font-size: 13px;
+}
+/* blogs end */
+
+
+/* product start */
+.product .product-left h4 {
+  color: #FF5E69;
+}
+.gallery img {
+  margin-bottom: 16px;
+  height: 626px;
+  object-fit: cover;
+}
+.gallery .foto-right {
+  height: 305px;
+}
+/* product end */
+
+
+/* faq start */
+.faq {
+  background-color: #000;
+}
+.faq .ac {
+  padding: 15px 0;
+}
+.faq h4 {
+  color : #FF8A56;
+}
+.faq h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+/* faq end */
+
+
+
+/* footer start */
+footer{
+  background-color: #000 !important;
+}
+footer .end-right-side a{
+  color: #fff ;
+  text-decoration: none !important; 
+}
+footer .write h2{
+  font-size: 54px;
+  font-weight: 700;
+}
+footer span {
+  color: #3C46FF;
+}
+footer .end-left-side p, footer .end-left-side article {
+  color: #fff !important;
+  opacity: .5 !important;
+}
+footer p {
+  color: #8A95AD;
+}
+/* footer end */
+
+
+/* media */
+@media(min-width:768px) {
+.introduction .intro-left-side h1{
+    font-size: 43px;
+}
+.services h2{
+  font-size: 40px;
+}
+.blogs-section {
+  margin-top: -281px;
+  padding-top: 200px;
+}
+.faq h2{
+  font-size: 54px;
+}
+.partners .companies img{
+  width: 195px;
+  height: 50px;
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+.gallery .foto-right {
+  width: 697px !important;
+}
+}
+
+@media(min-width:992px) {
+    .introduction .intro-left-side h1{
+        /* 1rem-16px */
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+}

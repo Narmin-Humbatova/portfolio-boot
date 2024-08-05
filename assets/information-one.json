@@ -1,0 +1,29 @@
+[
+    {
+        "cards_img":"assets/images/projects/project1.svg",
+        "cards_name":"Branding",
+        "cards_main":"Soulful Rebrand",
+        "cards_a":"View Project"
+    },
+
+    {
+        "cards_img":"assets/images/projects/project2.svg",
+        "cards_name":"Product Design",
+        "cards_main":"Datadash Product design",
+        "cards_a":"View Project"
+    },
+    
+    {
+        "cards_img":"assets/images/projects/project1.svg",
+        "cards_name":"Branding",
+        "cards_main":"Soulful Rebrand",
+        "cards_a":"View Project"
+    },
+
+    {
+        "cards_img":"assets/images/projects/project2.svg",
+        "cards_name":"Product Design",
+        "cards_main":"Datadash Product design",
+        "cards_a":"View Project"
+    }
+]
