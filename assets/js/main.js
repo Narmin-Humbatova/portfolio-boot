@@ -85,19 +85,6 @@ const cardSwiper = new Swiper(".cardsSlayder", {
   },
 });
 
-{/* <div class="swiper-slide col-12 col-md-6 col-lg-4">
-<div class="card border-0 px-3">
-  <img src="./assets/images/cards/card1.svg" alt="" width="70" class="py-2">
-  <h5 class="my-3">What I can do for you</h5>
-  <p>Faster, better products that your <br /> users love. Here's all the services I <br /> provide:</p>
-  <ul>
-    <li>Design Strategy</li>
-    <li>Web and Mobile App Design</li>
-    <li>Front-end Development</li>
-  </ul>
-</div>
-</div> */}
-
 // CARDS(services) JSON
 const cardsDiv = document.getElementsByClassName("cardDiv")[0]
 console.log(cardsDiv)
@@ -149,13 +136,6 @@ async function blogsGetir () {
     console.log(`Serverde Xeta Yarandi: ${err.message}`)
   }
 }
-
-{/* <div class="blog"> 
-<small> <span id="date">April 16, 2021</span> <span id="time">6 </span>mins</small>
-<h4>Design tips for designers, that cover everything you need</h4>
-<a href="" class="nav-link">Read the article <img src="./assets/images/blogs/white arrow.svg" alt=""></a>
-</div> */}
-
 
 // Accordion js
 new Accordion('.accordion-left');
